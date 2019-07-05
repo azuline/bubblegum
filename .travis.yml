@@ -1,0 +1,12 @@
+language: python
+sudo: required
+dist: xenial
+python:
+  - "3.6"
+  - "3.7"
+cache: pip
+install:
+  - pip install poetry
+  - poetry install 
+script:
+  - make tests

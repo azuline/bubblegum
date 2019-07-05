@@ -1,0 +1,16 @@
+{
+    "image_host_name": "catbox.moe",
+    "image_host_url": "https://catbox.moe/user/api.php",
+    "request_headers": {},
+    "upload_form_file_argument": "fileToUpload",
+    "upload_form_data_argument": {
+        "reqtype": "fileupload"
+    },
+    "rehost_form_url_argument": "url",
+    "rehost_form_data_argument": {
+        "reqtype": "urlupload"
+    },
+    "json_response": false,
+    "image_url_template": "f'{data}'",
+    "deletion_url_template": null
+}
