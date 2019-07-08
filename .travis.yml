@@ -7,6 +7,6 @@ python:
 cache: pip
 install:
   - pip install poetry
-  - poetry install 
+  - poetry install
 script:
   - make tests
