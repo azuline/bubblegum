@@ -1,4 +1,12 @@
 [[package]]
+category = "main"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+name = "appdirs"
+optional = false
+python-versions = "*"
+version = "1.4.3"
+
+[[package]]
 category = "dev"
 description = "Atomic file writes."
 name = "atomicwrites"
@@ -213,10 +221,11 @@ python-versions = "*"
 version = "0.25.0"
 
 [metadata]
-content-hash = "085a412f31d263290ee1076a72c22266132ba4e1840882c5ccee165e166cb94a"
+content-hash = "fce7d1d442edccc116dc026172ec115513a7c5105950df98bf3c8d30d3b7c765"
 python-versions = "^3.6"
 
 [metadata.hashes]
+appdirs = ["9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92", "d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"]
 atomicwrites = ["0312ad34fcad8fac3704d441f7b317e50af620823353ec657a53e981f92920c0", "ec9ae8adaae229e4f8446952d204a3e4b5fdd2d099f9be3aaf556120135fb3ee"]
 attrs = ["10cbf6e27dbce8c30807caf056c8eb50917e0eaafe86347671b57254006c3e69", "ca4be454458f9dec299268d472aaa5a11f67a4ff70093396e1ceae9c76cf4bbb"]
 certifi = ["47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7", "993f830721089fef441cdfeb4b2c8c9df86f0c63239f06bd025a76a7daddb033"]

@@ -29,9 +29,8 @@ options.
 
 ### Config
 
-The configuration is serialized to JSON and stored at
-`~/.bubblegum-config.json`. It can be edited with the `bubblegum config`
-command. A default configuration file is created when the script first runs.
+The configuration can be edited with the `bubblegum config` command. A default
+configuration file is created when the script first runs.
 
 #### Image Host Profiles
 

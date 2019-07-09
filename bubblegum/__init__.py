@@ -1,14 +1,16 @@
 from pathlib import Path
 
+from appdirs import user_data_dir
+
 from bubblegum.errors import BubblegumError
 
-__version__ = '0.3.0'
+__version__ = '0.4.0'
 
-BG_PATH = Path.home() / '.bubblegum'
+BG_PATH = Path(user_data_dir('bubblegum', 'dazzler'))
 
 try:
-    BG_PATH.mkdir(0o755, exist_ok=True)
+    BG_PATH.mkdir(0o700, exist_ok=True)
 except FileNotFoundError:
     raise BubblegumError(
-        'The user running bubblegum must have a home directory.'
+        'The user running bubblegum must have a data directory.'
     )

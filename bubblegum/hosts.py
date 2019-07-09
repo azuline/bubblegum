@@ -140,7 +140,9 @@ def image_host_factory(profile, class_name):
                     **profile['request_headers']
                 },
                 files={
-                    profile['upload_form_file_argument']: (path, img, mimetype)
+                    profile['upload_form_file_argument']: (
+                        path, img, mimetype
+                    )
                 },
                 data=profile['upload_form_data_argument'],
             ),

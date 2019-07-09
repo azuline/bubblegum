@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bubblegum"
-version = "0.3.1"
+version = "0.4.0"
 description = "A script to make and manage uploads to image hosts."
 authors = ["azuline <azuline@riseup.net>"]
 license = "MIT"
@@ -16,6 +16,7 @@ python = "^3.6"
 click = "^7.0"
 requests = "^2.0"
 pyperclip = "^1.7"
+appdirs = "^1.4"
 
 [tool.poetry.dev-dependencies]
 isort = "^4.3"
