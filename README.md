@@ -1,6 +1,8 @@
 # bubblegum
 
 [![Build Status](https://travis-ci.org/dzlr/bubblegum.svg?branch=master)](https://travis-ci.org/dzlr/bubblegum)
+[![Pypi](https://img.shields.io/pypi/v/bubblegum.svg?style=flat-square)](https://pypi.python.org/pypi/bubblegum)
+[![Pyversions](https://img.shields.io/pypi/pyversions/bubblegum.svg?style=flat-square)](https://pypi.python.org/pypi/bubblegum)
 
 bubblegum is a script to make and manage uploads to image hosts. Several image
 hosts are supported, to which one can directly upload images or rehost images
