@@ -7,3 +7,4 @@ tests:
 	poetry run yapf --parallel --diff --recursive bubblegum
 	poetry run isort -rc -c bubblegum
 	poetry run flake8
+.PHONY: lint tests
