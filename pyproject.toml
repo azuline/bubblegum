@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bubblegum"
-version = "0.4.1"
+version = "0.4.2"
 description = "A script to make and manage uploads to image hosts."
 authors = ["azuline <azuline@riseup.net>"]
 license = "Apache-2.0"
