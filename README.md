@@ -1,6 +1,6 @@
 # bubblegum
 
-[![Build Status](https://travis-ci.org/dazuling/bubblegum.svg?branch=master)](https://travis-ci.org/dazuling/bubblegum)
+[![Build Status](https://travis-ci.org/azuline/bubblegum.svg?branch=master)](https://travis-ci.org/azuline/bubblegum)
 [![Pypi](https://img.shields.io/pypi/v/bubblegum.svg)](https://pypi.python.org/pypi/bubblegum)
 [![Pyversions](https://img.shields.io/pypi/pyversions/bubblegum.svg)](https://pypi.python.org/pypi/bubblegum)
 

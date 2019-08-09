@@ -6,7 +6,7 @@ from bubblegum.errors import BubblegumError
 
 __version__ = '0.4.2'
 
-BG_PATH = Path(user_data_dir('bubblegum', 'dazzler'))
+BG_PATH = Path(user_data_dir('bubblegum', 'azuline'))
 
 try:
     BG_PATH.mkdir(mode=0o700, parents=True, exist_ok=True)

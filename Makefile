@@ -1,10 +1,12 @@
 lint:
-	poetry run yapf --in-place --parallel --recursive .
-	poetry run isort -rc bubblegum
-	poetry run flake8
+	yapf --in-place --parallel --recursive .
+	isort -rc bubblegum
+	flake8
+
 tests:
-	poetry run pytest
-	poetry run yapf --parallel --diff --recursive bubblegum
-	poetry run isort -rc -c bubblegum
-	poetry run flake8
+	pytest
+	yapf --parallel --diff --recursive bubblegum
+	isort -rc -c bubblegum
+	flake8
+
 .PHONY: lint tests
