@@ -9,6 +9,7 @@ CONFIG_TEMPLATE = {
     'default_host': 'vgy.me',
     'copy_to_clipboard': False,
     'imgur_client_id': None,
+    'vgyme_userkey': None,
     'max_workers': 4,
     'ua_override': None,
     'profiles': [],
