@@ -4,7 +4,7 @@ from appdirs import user_data_dir
 
 from bubblegum.errors import BubblegumError
 
-__version__ = '0.4.2'
+__version__ = '0.5.0'
 
 BG_PATH = Path(user_data_dir('bubblegum', 'azuline'))
 
