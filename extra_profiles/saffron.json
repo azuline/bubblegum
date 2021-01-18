@@ -1,0 +1,14 @@
+{
+  "image_host_name": "saffron",
+  "image_host_url": "https://image.host/upload",
+  "request_headers": {
+    "Authorization": "Token <token>"
+  },
+  "upload_form_file_argument": "upload",
+  "upload_form_data_argument": {},
+  "rehost_form_url_argument": null,
+  "rehost_form_data_argument": {},
+  "json_response": true,
+  "image_url_template": "f'{data[\"image_url\"]}'",
+  "deletion_url_template": "f'{data[\"deletion_url\"]}'"
+}
