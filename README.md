@@ -8,17 +8,18 @@ bubblegum is a script to make and manage uploads to image hosts. Several image
 hosts are supported, to which one can directly upload images or rehost images
 by URL.
 
+_Disclaimer: I wrote this to have some fun with duck typing. You are probably
+better off using cURL and piping it into jq + whatever else you want!_
+
 ## Usage
 
 Basic image uploading can be done via the `bubblegum upload` command. To upload
 a local image file, run `bubblegum upload /path/to/image.png`. To rehost a URL,
 run `bubblegum upload https://this.url.serves.an/image.png`.
 
-The default image host is https://vgy.me, as it does not require client
-authorization. The image host that will be used can be changed with the
-`--host` flag in the upload command, e.g. `bubblegum upload --host=imgur.com
-/path/to/image.png`. The default image host can also be changed in the config
-file. Host options can be viewed with the `bubblegum upload --help` command.
+The default image host is https://vgy.me. The image host that will be used can
+be changed with the `--host` flag in the upload command, e.g. `bubblegum upload --host=imgur.com /path/to/image.png`. The default image host can also be
+changed in the config file. Host options can be viewed with the `bubblegum upload --help` command.
 
 Uploading/rehosting multiple images simultaneously is also supported, via
 multiple arguments to the `upload` command. `bubblegum upload a.jpg b.png` will
@@ -36,7 +37,7 @@ configuration file is created when the script first runs.
 
 #### Image Host Profiles
 
-bubblegum includes loaded profiles for the following two hosts by default:
+bubblegum includes profiles for the following two hosts by default:
 
 - `imgur.com` (https://imgur.com)
 - `vgy.me` (https://vgy.me)
